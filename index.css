@@ -1,0 +1,55 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-image: url(img/wood.png);
+	background-repeat: repeat;
+}
+
+div {
+	display: inline-block;
+}
+
+#box {
+	background-color: #FFFFFF;
+	width: 200px;
+	height: 100px;
+}
+
+input {
+	margin: 0 10px;
+	width: 40px;
+	height: 40px;
+}
+
+#center_area {
+	margin-top: -190px;
+	margin-left: -400px;
+	position: absolute; /* bodyに対して固定 */
+	top: 50%;
+	left: 50%;
+	width: 800px;
+	height: 380px;
+}
+
+#photo {
+	box-shadow: 10px 10px 10px gray;
+	-webkit-box-shadow: 10px 10px 10px gray;
+	-moz-box-shadow: 10px 10px 10px gray;
+	-ms-box-shadow: 10px 10px 10px gray;
+}
+
+img {
+	width: 640px;
+	height: 360px;
+	border : 10px solid #FFFFFF;
+	vertical-align: middle;
+}
+
+#logo > img {
+	position: absolute;
+	top: -85px;
+	left: 610px;
+	width: 168px;
+	height: 147px;
+	border: 0;
+}
